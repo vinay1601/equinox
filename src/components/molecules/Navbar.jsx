@@ -49,26 +49,26 @@ const Navbar = () => {
 
                         <div className="flex items-center  flex-4/6  p-2 rounded">
                             <div className="text-center mb-2 px-1 md:px-20">
-                                <p className="text-gray-500">Payment</p>
-                                <p className="text-red-600 font-semibold">Overdue</p>
+                                <p className="text-red-600">Payment</p>
+                                <p className="text-red-600">Overdue</p>
                             </div>
 
                             <div className="grid grid-cols-4 md:grid-cols-4 gap-4 text-center text-sm">
                                 <div className='px-1 md:px-5'>
-                                    <p className="text-gray-500">A</p>
                                     <p className="font-semibold">20,000</p>
+                                    <p className="text-orange-400">A</p>
                                 </div>
                                 <div className='px-1 md:px-5'>
-                                    <p className="text-gray-500">B</p>
                                     <p className="font-semibold">50,000</p>
+                                    <p className="text-orange-400">B</p>
                                 </div>
                                 <div className='px-1 md:px-5'>
-                                    <p className="text-gray-500">C</p>
                                     <p className="font-semibold">50,000</p>
+                                    <p className="text-orange-400">C</p>
                                 </div>
                                 <div className='px-1 md:px-5'>
-                                    <p className="text-gray-500">D</p>
                                     <p className="font-semibold">30,000</p>
+                                    <p className="text-orange-400">D</p>
                                 </div>
                             </div>
                         </div>
