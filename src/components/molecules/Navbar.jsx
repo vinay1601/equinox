@@ -49,26 +49,26 @@ const Navbar = () => {
 
                         <div className="flex items-center  flex-4/6  p-2 rounded">
                             <div className="text-center mb-2 px-1 md:px-20">
-                                <p className="text-red-600">Payment</p>
-                                <p className="text-red-600">Overdue</p>
+                                <p className="text-red-600 font-medium">Payment</p>
+                                <p className="text-red-600 font-medium">Overdue</p>
                             </div>
 
                             <div className="grid grid-cols-4 md:grid-cols-4 gap-4 text-center text-sm">
                                 <div className='px-1 md:px-5'>
                                     <p className="font-semibold">20,000</p>
-                                    <p className="text-orange-400">A</p>
+                                    <p className="text-orange-400 font-semibold">A</p>
                                 </div>
                                 <div className='px-1 md:px-5'>
                                     <p className="font-semibold">50,000</p>
-                                    <p className="text-orange-400">B</p>
+                                    <p className="text-orange-400 font-semibold">B</p>
                                 </div>
                                 <div className='px-1 md:px-5'>
                                     <p className="font-semibold">50,000</p>
-                                    <p className="text-orange-400">C</p>
+                                    <p className="text-orange-400 font-semibold">C</p>
                                 </div>
                                 <div className='px-1 md:px-5'>
                                     <p className="font-semibold">30,000</p>
-                                    <p className="text-orange-400">D</p>
+                                    <p className="text-orange-400 font-semibold">D</p>
                                 </div>
                             </div>
                         </div>
