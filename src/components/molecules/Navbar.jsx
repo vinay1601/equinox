@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <div>
             <Card className="w-full max-w-[calc(100%-5%)] mx-auto mt-4 rounded-2xl shadow-md">
-                <CardContent className="px-4 py-2 md:px-6 lg:px-8">
+                <CardContent className="px-4 py-0 md:px-6 lg:px-8">
                     <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4">
                         <div className="space-y-1">
                             <h2 className="text-lg md:text-xl font-semibold">
@@ -47,8 +47,8 @@ const Navbar = () => {
                             </div>
                         </div>
 
-                        <div className="flex items-center  flex-4/6  p-2 rounded">
-                            <div className="text-center mb-2 px-1 md:px-20">
+                        <div className="flex items-center  flex-4/6  md:p-2 rounded">
+                            <div className="text-center mb-2 pr-1 md:px-20">
                                 <p className="text-red-600 font-medium">Payment</p>
                                 <p className="text-red-600 font-medium">Overdue</p>
                             </div>

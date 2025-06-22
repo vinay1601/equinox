@@ -47,7 +47,7 @@ const timelineData = [
 
 const Timeline = () => {
     return (
-        <div className="space-y-4">
+        <div className="space-y-1">
             {timelineData.map((group) => (
                 <div key={group.date}>
                     <div>
@@ -56,7 +56,7 @@ const Timeline = () => {
                         </h3>
                     </div>
                     <div className="bg-white p-4 rounded shadow">
-                        <div className="space-y-4">
+                        <div className="space-y-1">
                             {group.events.map((event, idx) => (
                                 <div key={idx} className="flex gap-4">
                                     <div className="text-right w-28 shrink-0">

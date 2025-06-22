@@ -7,12 +7,12 @@ export default function Home() {
     <>
       <div>
         <Navbar />
-        <div className="flex flex-col md:flex-row gap-4">
-          <div className="w-full md:w-[65%] p-5">
+        <div className="flex flex-col lg:flex-row gap-4  md:pr-5">
+          <div className="w-full lg:w-[65%] p-5">
             <Chartbox />
           </div>
 
-          <div className="w-full md:w-[35%] p-5">
+          <div className="w-full lg:w-[35%] p-5">
             <Timeline />
           </div>
         </div>
