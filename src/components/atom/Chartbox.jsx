@@ -3,7 +3,7 @@ import React from 'react'
 const Chartbox = () => {
     return (
         <div className='px-0 md:px-5'>
-            {/* Tabs */}
+
             <div className="flex space-x-4 text-sm">
                 {["Sites", "Orders", "VRs", "Reports", "Invoices", "PI"].map(
                     (tab, i) => (
@@ -21,7 +21,7 @@ const Chartbox = () => {
                 )}
             </div>
 
-            {/* Site Table (Placeholder) */}
+
             <div className="overflow-x-auto border rounded shadow-sm mt-5">
                 <table className="w-full text-sm text-left">
                     <thead className="bg-white text-gray-700 font-medium">
